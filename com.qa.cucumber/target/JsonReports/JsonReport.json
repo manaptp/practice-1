@@ -1,0 +1,87 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-15T15:20:28.846Z",
+        "line": 23,
+        "name": "verify login with Valid credentials",
+        "description": "",
+        "id": "feature-to-test-login-functionality;verify-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2316400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on Login page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.verifyLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enters username and password",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.enterValidCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click on submit button",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.clickSubmit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Verify whether Login page is appeared or not",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.verifyHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Feature to test login functionality",
+    "description": "",
+    "id": "feature-to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": [
+      {
+        "name": "@SmokeTest",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
